@@ -1,0 +1,26 @@
+.cotainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+
+}
+.CustomGrid{
+    justify-content: space-between;
+    /* border: 1px solid yellow; */
+    width: 40%;
+    padding: 20px;
+}
+
+.CustomGrid div img{
+   margin: 10px 20px;
+}
+
+
+@media screen and (min-width:640px){
+    /* .CustomGrid div{float: left; width:45% !important; display:block !important} */
+}
+
+/* @media screen and (max-width:640px){
+    .CustomGrid{ width:100%; box-sizing: border-box;}
+} */
